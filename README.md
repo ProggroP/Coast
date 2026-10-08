@@ -137,3 +137,8 @@ for days. Later measurements still average over longer stretches.
 ### 1.1.0
 
 First release.
+
+## License
+
+MIT License, see [LICENSE](LICENSE). The bundled fonts are not covered by it and
+remain under their own licenses.
