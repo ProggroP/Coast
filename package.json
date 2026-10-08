@@ -1,0 +1,81 @@
+{
+    "author": "Axel Kark",
+    "dependencies": {
+        "@rebble/clay": "1.0.8"
+    },
+    "keywords": [
+        "pebble-app",
+        "watchface",
+        "coast"
+    ],
+    "name": "coast",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Coast",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "INTERVAL",
+            "COLOR_BG",
+            "COLOR_FG",
+            "SHOW_BATTERY",
+            "STYLE",
+            "ROUND",
+            "NIGHT_MODE",
+            "NIGHT_START",
+            "DAY_START"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/leco1976-pebble.otf",
+                    "name": "FONT_LECO_104",
+                    "targetPlatforms": [
+                        "emery",
+                        "gabbro"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/leco1976-pebble.otf",
+                    "name": "FONT_LECO_76",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk",
+                        "diorite",
+                        "flint"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/leco1976-pebble.otf",
+                    "name": "FONT_LECO_66",
+                    "targetPlatforms": [
+                        "aplite"
+                    ],
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite",
+            "flint",
+            "emery",
+            "gabbro"
+        ],
+        "uuid": "4cdb10a6-3821-4bd9-9b5c-983468c68a12",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.4.0"
+}
